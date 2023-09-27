@@ -1,0 +1,44 @@
+.header_container{
+    background-color: #004199;
+    display: flex;
+    align-items: center;
+    height: 8vh;
+}
+
+.logo_header_container{
+    width: 70%;
+    margin-right: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_container{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lateral_menu{
+    background-color: #2A8BF2;
+    display: flex;
+    width: 80%;
+    height: 0.25rem;
+    border-radius: 0.5rem;
+   
+}
+
+.lateral_menu-container{
+    width: 2.5rem;
+    height: 2rem;   
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    border-radius: 0.3rem;
+}
