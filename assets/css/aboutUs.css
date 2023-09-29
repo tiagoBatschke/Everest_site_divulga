@@ -1,0 +1,179 @@
+.about_us-container{
+    background-color: #2A8BF2;
+    
+    
+}
+
+.title_text-aboutUs{
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.text-aboutUs{
+    color: #fff;
+    font-size: 1.1rem;
+    text-align: start;
+}
+
+.text_container-aboutUs{
+    display: flex;
+    height: 60vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+}
+
+.img_aboutUs-component{
+    width: 80vw;
+}
+
+
+.integraçoes_container{
+    background-color: #004199;
+    padding-bottom: 1rem;
+}
+
+.integraçoes_containerInterno{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding: 0.5rem;
+    height: 15vh;
+}
+
+
+.integraçoesText_containerInterno{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+
+}
+
+.title_text-integraçoes{
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.text-integraçoes{
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: center;
+}
+
+.button_solicitation{
+    background-color:#fcfcfc;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #004199;
+    border: none;
+}
+
+.cascate_imgs-container{
+    margin-top: -1.5rem;
+}
+
+.img_cascading{
+    width: 30%;
+    margin-left: 1.5%;
+}
+.logos_containers{
+    background-color: #fff;
+}
+
+.logo_container-imgs{
+     width: 100%;
+     display: flex;
+     justify-content: space-evenly;
+}
+
+.logo_icons{
+    width: 30%;
+
+}
+
+
+@media (min-width: 700px) {
+
+    .text_container-aboutUs{
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        margin-left: 10%;
+        height: 30vh;
+    }
+
+    .reverse{
+        display: flex; 
+        flex-direction: row-reverse
+    }
+
+    .text_container-aboutUs-intern{
+        width: 75%;
+        padding: 5%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+    }
+
+    .integraçoes_container{
+        background-color: #004199;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 1rem;
+        
+    }
+    .integraçoes_containerInterno{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 1.5rem;
+        padding: 0.5rem;
+        height: 15vh;
+        width: 40%;
+    }
+    .integraçoesText_containerInterno{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0.5rem;
+        width: 40%;
+    }
+
+    .img_aboutUs-component{
+        width: 30vw;
+    }
+
+    .logos_containers{
+        background-color: #fff;
+        display: flex;
+        padding-top:1rem ;
+        padding-bottom: 1rem;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .logo_container-imgs{
+         width:45%;
+         background-color: #FFF;
+         display: flex;
+         justify-content: space-evenly;
+         
+    }
+    
+    .logo_icons{
+        width: 30%;
+        height: 4vh;
+    }
+}
