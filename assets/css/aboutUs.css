@@ -60,15 +60,21 @@
 .title_text-integraçoes{
     color: #fff;
     font-size: 1.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 1rem;
     font-weight: bold;
     text-align: center;
 }
 
 .text-integraçoes{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #fff;
+    font-family:'Franklin Gothic';
     text-align: center;
+}
+
+.icons_integracoes {
+    padding: 0.5rem;
 }
 
 .button_solicitation{
@@ -91,18 +97,16 @@
 }
 .logos_containers{
     background-color: #fff;
+    width: 100%;
 }
 
 .logo_container-imgs{
-     width: 100%;
+    max-width: 20%;
      display: flex;
      justify-content: space-evenly;
+     margin-left: 6rem;
 }
 
-.logo_icons{
-    width: 30%;
-
-}
 
 
 @media (min-width: 700px) {
