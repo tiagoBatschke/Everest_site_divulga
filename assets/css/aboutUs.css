@@ -5,13 +5,16 @@
 }
 
 .title_text-aboutUs{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.3rem;
+    margin-bottom: 1rem;
     color: #fff;
 }
 
 .text-aboutUs{
     color: #fff;
-    font-size: 1.1rem;
+    font-family:'Franklin Gothic';
+    font-size: 1rem;
     text-align: start;
 }
 
