@@ -37,8 +37,9 @@
                 <h2 class="subtitle_presentation">Seu atendimento <span style="font-weight: bold;">simplificado</span> e <span style="font-weight: bold;">organizado</span> em um só lugar</h2>
                 <button class="button_presentation">Veja como é nossa plataforma agora ↘</button>
             </div>
-            <div class="img_presentation-container">
-                <img class="img_presentation" src="./assets/imgs/PostsComunsEverest2.png" alt="">
+                <div class="img_presentation-container">
+                    <img class="img_presentation" src="./assets/imgs/PostsComunsEverest2.png" alt="">
+                </div>
             </div>
         </div>
         <div class="about_us-container">
@@ -116,7 +117,9 @@
             <div class="integraçoes_container">
                 <div class="integraçoesText_containerInterno-solicite">
                     <h2 class="title_text-integraçoes">Solicite agora um orçamento conosco!</h2>
-                    <button class="button_solicitation">Solicite aqui ↘</button>
+                    <a href="mailto:contato@focosp.com?subject=Email de contato&body=Olá, venho solicitar informações sobre a Exact.">
+                        <button class="button_solicitation">Solicite aqui ↘</button>
+                    </a>
                </div>
                <div class="cascate_imgs-container">
                     <img class="img_cascading" src="./assets/imgs/Rectangle 166.png" alt="">
@@ -160,10 +163,10 @@
                 </div>
                 <div class="input_container">
                     <label class="input_label" for="mensagem">Mensagem</label><br>
-                    <textarea class="input_ContactUs" id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br><br>
+                    <textarea  class="input_ContactUs" id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br><br>
                 </div>
-        
-                <input class="input_ContactUs-submit" type="submit" value="Enviar">
+               
+                <input class="input_ContactUs-submit" type="submit" id="envia_email" value="Enviar">
             </form>
         </div>
     </main>
@@ -189,5 +192,6 @@
     <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
     <script src="./assets/js/slick-1.8.1/slick/slick.js" type="text/javascript" charset="utf-8"></script>
     <script type="text/javascript" src="./assets/js/slider.js"></script>
+    <script src="./assets/js/enviaForm.js"></script>
 </body>
 </html>
