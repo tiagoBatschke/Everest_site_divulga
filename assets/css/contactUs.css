@@ -1,7 +1,22 @@
 .contact_us-container{
     background-color: #2A8BF2;
-    padding-top: 1rem;
+    padding-top: 3rem;
     padding: 0.8rem;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.contact_us_text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 30vh;
+    
 }
 
 .form_contactUs{
@@ -23,6 +38,7 @@
     color: #fff;
     font-weight: bold;
     margin-bottom: 0.2rem;
+    font-family: 'Baloo 2';
 }
 
 .input_ContactUs{
@@ -40,6 +56,7 @@
     font-weight: bold;
     border: none;
     color: #004199;
+    font-family: 'Baloo 2';
 }
 
 .input_ContactUs:focus{
@@ -51,25 +68,29 @@
 
     .contact_us-container{
         background-color: #2A8BF2;
-        padding-top: 1rem;
+        padding-top: 3rem;
         padding: 0.8rem;
+        height: 50vh;
         display: flex;
-        height: 37vh;
-       
+        flex-direction: row;
+        justify-content: space-evenly;
     }
+  
     .contact_us_text-container{
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         width: 45%;
-        margin-left: 3%;
-        margin-right: 3%;
+        margin-left: -15%;
+        margin-right: 1%;
     }
     .form_contactUs{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         width: 25%;
+        height: 45vh;
+        margin-left: -20%;
     }
     .input_container{
         display: flex;

@@ -1,0 +1,179 @@
+
+
+@media screen and (min-width: 980px){
+  .glider-contain{
+    width: 50%;
+   
+  }
+
+  .card_jobs{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    background-color:#004199;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 10%;
+    height: 45vh;
+    
+  }
+  .card_jobs_title{
+    color: #ffffff;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    font-family: 'Baloo 2';
+    border-bottom: #fff solid 1px;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+  }
+ 
+  .card_jobs_text{
+    color: #fff;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-family: 'Baloo 2';
+  }
+  
+}
+  @media (min-width: 780px)  and  (max-width: 980px){
+   
+    .glider-contain{
+      width: 80%;
+     
+    }
+
+    .card_jobs{
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+      background-color:#004199;
+      border-radius: 1rem;
+      padding: 1rem;
+      width: 10%;
+      height: 40vh;
+      
+    }
+    .card_jobs_title{
+      color: #ffffff;
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+      font-family: 'Baloo 2';
+      border-bottom: #fff solid 1px;
+      padding-bottom: 0.5rem;
+      text-align: center;
+      font-weight: bold;
+    }
+   
+    .card_jobs_text{
+      color: #fff;
+      margin-top: 1rem;
+      font-size: 1rem;
+      font-family: 'Baloo 2';
+    }
+    
+  }
+  @media (min-width: 580px)  and  (max-width: 780px){
+    .glider-contain{
+      width: 80%;
+     
+    }
+
+    .card_jobs{
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+      background-color:#004199;
+      border-radius: 1rem;
+      padding: 1rem;
+      width: 10%;
+      height: 40vh;
+      
+    }
+    .card_jobs_title{
+      color: #ffffff;
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+      font-family: 'Baloo 2';
+      border-bottom: #fff solid 1px;
+      padding-bottom: 0.5rem;
+      text-align: center;
+      font-weight: bold;
+    }
+   
+    .card_jobs_text{
+      color: #fff;
+      margin-top: 1rem;
+      font-size: 1rem;
+      font-family: 'Baloo 2';
+    }
+  
+  }
+  
+  
+  @media (min-width: 380px)  and  (max-width: 580px){
+   
+    .glider-contain{
+      width: 80%;
+     
+    }
+
+    .card_jobs{
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+      background-color:#004199;
+      border-radius: 1rem;
+      padding: 1rem;
+      width: 10%;
+      height: 40vh;
+      
+    }
+    .card_jobs_title{
+      color: #ffffff;
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+      font-family: 'Baloo 2';
+      border-bottom: #fff solid 1px;
+      padding-bottom: 0.5rem;
+      text-align: center;
+      font-weight: bold;
+    }
+   
+    .card_jobs_text{
+      color: #fff;
+      margin-top: 1rem;
+      font-size: 1rem;
+      font-family: 'Baloo 2';
+    }
+  }
+  
+  @media screen and  (max-width: 380px){
+    .glider-contain{
+      width: 100%;
+     
+    }
+
+    .card_jobs{
+      margin-left: 0.2rem;
+      margin-right: 3rem;
+      background-color:#004199;
+      border-radius: 1rem;
+      padding: 1rem;
+      width: 15%;
+      height: 40vh;
+    }
+    .card_jobs_title{
+      color: #ffffff;
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+      font-family: 'Baloo 2';
+      border-bottom: #fff solid 1px;
+      padding-bottom: 0.5rem;
+      text-align: center;
+      font-weight: bold;
+    }
+   
+    .card_jobs_text{
+      color: #fff;
+      margin-top: 1rem;
+      font-size: 1rem;
+      font-family: 'Baloo 2';
+    }
+  }
