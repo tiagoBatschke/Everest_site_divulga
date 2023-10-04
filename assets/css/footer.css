@@ -7,8 +7,8 @@
 }
 
 .logo_footer{
-    width: 80%;
-    margin-left: 10%;
+    width: 60%;
+    margin-left: 20%;
     margin-top: 3vh;
 }
 .social_icons-container{
@@ -21,7 +21,7 @@
 .direitos_text{
     color: #fff;
     width: 80%;
-    margin-left: 0%;
+    margin-left: 20%;
     margin-top: 1rem;
     font-family: 'Baloo 2';
     text-align: center;
