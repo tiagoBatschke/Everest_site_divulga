@@ -9,7 +9,7 @@
 
 .title_text-aboutUs{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     margin-bottom: 1rem;
     color: #fff;
     font-family: 'Baloo 2';
@@ -21,7 +21,8 @@
 .text-aboutUs{
     color: #fff;
     font-family:'Franklin Gothic';
-    font-size: 1rem;
+    font-size: 1.1rem;
+    letter-spacing: 0.01rem;
     text-align: start;
     font-family: 'Baloo 2';
 }
@@ -35,8 +36,8 @@
     padding: 0.5rem;
 }
 
-.img_aboutUs-component{
-    width: 80vw;
+.img_aboutUs-component {
+    width:80vw;
 }
 
 
