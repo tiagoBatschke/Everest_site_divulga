@@ -13,10 +13,10 @@ $(document).ready(function() {
         {
           breakpoint: 2000,
           settings: {
-            slidesToShow: 4.5,
+            slidesToShow: 3.5,
             slidesToScroll: 4.5,
             infinite: false,
-            dots: true
+            dots: false
           }
         },
         {

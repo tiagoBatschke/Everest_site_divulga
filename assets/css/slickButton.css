@@ -1,8 +1,9 @@
 @media (min-width: 980px){
     .slider {
         width: 80%;
-        padding-left: 9%;
+        padding-left: 22%;
         margin-top: 2rem;
+        justify-content: center;
     }
 
     .slider_title_container{
