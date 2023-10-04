@@ -30,6 +30,7 @@
   .card_jobs_text{
     color: #fff;
     margin-top: 1rem;
+    letter-spacing: 0.05rem;
     font-size: 1rem;
     font-family: 'Baloo 2';
   }
